@@ -29,7 +29,7 @@ module.exports = {
         marquee: 'marquee 25s linear infinite',
         marquee2: 'marquee2 25s linear infinite',
         slideUp: 'slideUp 1s linear 2s ',
-        showUp: 'showUp 0.7s linear',
+        showUp: 'showUp 0.4s linear',
         popUp: 'popUp 3s ease-in',
       },
       keyframes: {
@@ -63,10 +63,10 @@ module.exports = {
         },
 
         showUp: {
-          '0%' : {transform: 'translateY(0)',
+          '0%' : {transform: 'translateY(17rem)',
           opacity: '0.8',
         },
-        '100%' : {transform: 'translateY(-17em)',
+        '100%' : {transform: 'translateY(0)',
           opacity: '1',
         },
         

@@ -4,12 +4,10 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="/src/css/output.css" rel="stylesheet"> 
-  <!-- <link href="/src/assets/styles.css" rel="stylesheet"> -->
-  <!-- <script>document.documentElement.classList.add('js')</script> -->
-
 </head>
+
 <body class="dark bg-slate-950 text-white font-poppins">
-    <header class="container mx-auto ">
+    <header class="mx-12 sm:mx-24 ">
         <nav class="flex justify-between py-3 bg-slate-950 container mx-auto ">
             <img src="/src/assets/images/logo.svg">
             <div class="navlinks hidden sm:flex flex-row justify-around  gap-4">            
@@ -113,8 +111,8 @@
         </div>
     </header>
 
-    <section class="hero-section container mx-auto">
-        <div class="hero grid md:grid-cols-2 items-center my-24">
+    <section class="hero-section ">
+        <div class="hero mx-12 sm:mx-24 grid md:grid-cols-2 items-center my-12">
             <div class="title space-y-6 animate-left ">
                 <h1 class="text-5xl font-bold text-white">
                     Launch Your Dev<br>
@@ -159,14 +157,14 @@
         </div>
     </section>
 
-    <section class="des-section container mx-auto my-24">
+    <section class="des-section mx-12 sm:mx-24 my-24">
         <div class="intro text-center">
             <h1 class="text-5xl font-bold text-white animate-slideUp js-show-on-scroll">Comprehensive <span class=" bg-gradient-to-r from-blue-500 to-purple-700 bg-clip-text text-transparent  "> Project-Based </span> Courses
                 to Help You Become a <span class=" bg-gradient-to-r from-blue-500 to-purple-700 bg-clip-text text-transparent  "> JavaScript Master</span> </h1>
             <h3 class="text-xl text-slate-300 w-3/4 mx-auto my-3 animate-slideUp js-show-on-scroll">Want to master React.js or create a stunning Web 3.0 blockchain app? Join other professional developers inside Filmpire where you'll build a Netflix clone streaming app or NFT Marketplace where you'll develop Cryptoket, a fully-functioning NFT platform.</h3>
-            <div class="grid lg:grid-cols-2 items-center content-center gap-y-24 md:gap-10 text-left animate-slideUp js-show-on-scroll  my-10">
-                <div class="movie lg:w-3/4 bg-slate-900 rounded-xl  group relative">
-                    <img src="/src/assets/images/movie.webp" class="">
+            <div class="grid lg:grid-cols-2 items-center content-center gap-y-24 md:gap-24 mx-24 text-left animate-slideUp js-show-on-scroll  my-10">
+                <div class="movie lg:w-3/4 bg-slate-900 rounded-xl group  relative">
+                    <img src="/src/assets/images/movie.webp" class="group-hover:description:opacity-100">
                     <div class="movie-des  ">
                         <h2 class=" p-5">Build an AI Powered Movie Application and Master React</h2>
                         <div class="flex p-5">
@@ -177,7 +175,7 @@
                             <img src="/src/assets/images/star_fill.svg" class="mr-2">
                             <span>4.7/5, based on 97 reviews</span>
                         </div>
-                        <div class="description group-hover:animate-showUp p-4 opacity-0 group-hover:opacity-100 transition-opacity group-hover:-translate-y-64 rounded-b-xl absolute bg-slate-900  z-10">
+                        <div class="description p-4 transition-opacity group-hover:animate-showUp rounded-b-xl top-24   bg-slate-900  opacity-0 hover:opacity-100 hover:shadow-2xl duration-300 absolute inset-0 z-10  ">
                             <h2 class="my-2">Build an AI Powered Movie Application and Master React</h2>
                             <div class="flex my-2">
                                 <img src="/src/assets/images/star_fill.svg" class="">
@@ -207,7 +205,7 @@
                             <img src="/src/assets/images/star_fill.svg" class="mr-2">
                             <span>4.7/5, based on 97 reviews</span>
                         </div>
-                        <div class="description group-hover:animate-showUp p-4 opacity-0 group-hover:opacity-100 transition-opacity group-hover:-translate-y-64 rounded-b-xl absolute bg-slate-900  z-10">
+                        <div class="description p-4 transition-opacity group-hover:animate-showUp rounded-b-xl top-24  bg-slate-900  opacity-0 hover:opacity-100 hover:shadow-2xl duration-300 absolute inset-0 z-10  ">
                             <h2 class="my-2">Build an AI Powered Movie Application and Master React</h2>
                             <div class="flex my-2">
                                 <img src="/src/assets/images/star_fill.svg" class="">
@@ -236,7 +234,7 @@
         </div>
     </section>
     
-    <section class="masterclass-experience-section container mx-auto relative animate-slideUp js-show-on-scroll">
+    <section class="masterclass-experience-section mx-12 sm:mx-24 relative animate-slideUp js-show-on-scroll">
         <div class="masterclass text-center border-2 border-blue-400 p-10 lg:p-20 relative">
             <div class="dummy hidden md:block  w-10 h-10 border-blue-400 border-2 absolute -top-6  -left-4 z-10 bg-black "></div>
             <div class="dummy  hidden md:block   w-10 h-10 border-blue-400 border-2 absolute -top-6  left-2/4 z-10 bg-black "></div>
@@ -257,7 +255,7 @@
             </div>
     </section>
 
-   <section class="theorey-driven-courses-section container mx-auto my-24">
+   <section class="theorey-driven-courses-section mx-12 sm:mx-24 my-24">
     <div class="theorey-driven text-center">
         <h1 class="text-5xl font-bold text-white my-8 animate-slideUp js-show-on-scroll">Ditch Theory-Driven Courses<br> and <span class=" bg-gradient-to-r from-blue-500 to-purple-700 bg-clip-text text-transparent ">Enter the World </span>of a <span class=" bg-gradient-to-r from-blue-500 to-purple-700 bg-clip-text text-transparent ">True Developer</span></h1>
         <div class="grid md:grid-cols-3 text-left gap-6 animate-slideUp js-show-on-scroll">
@@ -293,7 +291,7 @@
     </div>
    </section>
 
-   <section class="scrolling-logos-section my-24 container mx-auto">
+   <section class="scrolling-logos-section my-24 ">
    <div class="grid grid-cols-3 items-center gap-10">
     <div class="borderdummy w-[100%] h-1 bg-gray-200 "></div>
 
@@ -399,7 +397,7 @@
 </div>
 </div> -->
 
-  <section class="reviews-section my-24 container mx-auto">
+  <section class="reviews-section my-24 mx-12 sm:mx-24">
     <h1 class="text-5xl font-bold text-white my-8 text-center animate-slideUp js-show-on-scroll">Our<span class=" bg-gradient-to-r from-blue-500 to-purple-700 bg-clip-text text-transparent "> Global Students </span>Say It Best</h1>
     <div class="reviews grid md:grid-cols-2 gap-10">
         <div class="review1 bg-slate-800 p-8 rounded-xl animate-slideUp js-show-on-scroll">
@@ -541,7 +539,7 @@
    
   </section>
 
-  <section class="teacher-section container mx-auto">
+  <section class="teacher-section mx-12 sm:mx-24">
     <h1 class="text-5xl font-bold text-white my-8 text-center animate-slideUp js-show-on-scroll">Meet Your Coach:<br><span class=" bg-gradient-to-r from-blue-500 to-purple-700 bg-clip-text text-transparent ">Adrian Hajdin </span></h1>
 
     <div class="teacher grid md:grid-cols-3 justify-center items-center animate-slideUp js-show-on-scroll">
@@ -564,7 +562,7 @@
 
     </div>
   </section>
-  <section class="github-star-section container mx-auto my-24">
+  <section class="github-star-section mx-12 sm:mx-24 my-24">
     <div class="github-star flex flex-col-reverse sm:flex-row justify-center items-center animate-slideUp js-show-on-scroll">
         <div class="user-des">
             <h1 class="text-5xl font-bold text-white my-8 "><span class=" bg-gradient-to-r from-blue-500 to-purple-700 bg-clip-text text-transparent ">JSM Pro</span> Courses are
@@ -584,7 +582,7 @@
     </div>
   </section>
 
-  <section class="faqs-section container mx-auto my-24">
+  <section class="faqs-section mx-12 sm:mx-24 my-24">
     <h1 class="text-5xl font-bold text-white my-8 text-center animate-slideUp js-show-on-scroll">Frequently Asked Questions</h1>
     <div class="faq1 md:w-2/3 mx-auto animate-slideUp js-show-on-scroll">
         <details class="open:bg-slate-900 open:ring-1 open:ring-white/5 open:shadow-lg p-6 rounded-lg" >
@@ -637,7 +635,7 @@
     </div>
   </section>
 
-  <section class="more-courses-section container mx-auto my-24 ">
+  <section class="more-courses-section mx-12 sm:mx-24 my-24 ">
     <h1 class="text-5xl font-bold text-white my-8 text-center "><span class=" bg-gradient-to-r from-blue-500 to-purple-700 bg-clip-text text-transparent ">Launch Your Career</span> Today
         <br> With <span class=" bg-gradient-to-r from-blue-500 to-purple-700 bg-clip-text text-transparent ">JS Mastery Pro</span></h1>
     <div class="courses grid md:grid-cols-4 text-center">
@@ -661,7 +659,7 @@
     </div>
   </section>
 
-  <footer class="container mx-auto ">
+  <footer class="mx-12 sm:mx-24 ">
     <div class="footer grid sm:grid-cols-3 md:grid-cols-6 -gap-24 py-12">
         <div class="foot1 col-span-1">
             <h3 class="text-xl font-bold">Courses</h3>
